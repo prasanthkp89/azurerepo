@@ -47,7 +47,7 @@ output "connect" {
   value       = module.cluster.connect
 }
 output "follow_install_logs" {
-  description = "Follow Jenkins X install logs"
+  description = "Follow Jenkins X install logs details and info"
   value       = "jx admin log"
 }
 output "docs" {
