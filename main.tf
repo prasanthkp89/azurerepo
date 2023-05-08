@@ -51,7 +51,7 @@ output "follow_install_logs" {
   value       = "jx admin log"
 }
 output "docs" {
-  description = "Follow Jenkins X 3.x docs for more information"
+  description = "Follow Jenkins X 3.x docs for more information details"
   value       = "https://jenkins-x.io/v3/"
 }
 output "kube_config_admin" {
